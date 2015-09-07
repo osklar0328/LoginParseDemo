@@ -5,6 +5,7 @@ If you haven't used CocoaPods before, you can read about it [here](https://cocoa
 
 ### How do I get set up? ###
 
+* Use `LoginParseDemo.xcworkspace` for this project.
 * Set your Parse application id and client key in AppDelegate.m
 
 - If you get compiler errors, try the following command in your Mac OS X Terminal:     
