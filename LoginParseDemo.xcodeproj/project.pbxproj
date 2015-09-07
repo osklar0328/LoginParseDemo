@@ -14,6 +14,7 @@
 		759A50CC1B9DE0600010D2E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759A50CB1B9DE0600010D2E1 /* Images.xcassets */; };
 		759A50CF1B9DE0600010D2E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 759A50CD1B9DE0600010D2E1 /* LaunchScreen.xib */; };
 		759A50DB1B9DE0610010D2E1 /* LoginParseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 759A50DA1B9DE0610010D2E1 /* LoginParseDemoTests.m */; };
+		A47951225E77B2B13815C88B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ABA515BF7046C873B88714 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6390A71AFDEEED15911CED86 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		759A50BB1B9DE0600010D2E1 /* LoginParseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginParseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		759A50BF1B9DE0600010D2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		759A50C01B9DE0600010D2E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		759A50D41B9DE0610010D2E1 /* LoginParseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginParseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		759A50D91B9DE0610010D2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		759A50DA1B9DE0610010D2E1 /* LoginParseDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginParseDemoTests.m; sourceTree = "<group>"; };
+		CEADEA043BD352C443024A10 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E0ABA515BF7046C873B88714 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47951225E77B2B13815C88B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +65,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021A447415127CD6AF8939FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEADEA043BD352C443024A10 /* Pods.debug.xcconfig */,
+				6390A71AFDEEED15911CED86 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5BEE88335E8B3F615C4F0245 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0ABA515BF7046C873B88714 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		759A50B21B9DE0600010D2E1 = {
 			isa = PBXGroup;
 			children = (
 				759A50BD1B9DE0600010D2E1 /* LoginParseDemo */,
 				759A50D71B9DE0610010D2E1 /* LoginParseDemoTests */,
 				759A50BC1B9DE0600010D2E1 /* Products */,
+				021A447415127CD6AF8939FA /* Pods */,
+				5BEE88335E8B3F615C4F0245 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 759A50DE1B9DE0610010D2E1 /* Build configuration list for PBXNativeTarget "LoginParseDemo" */;
 			buildPhases = (
+				FF9E8168D72E137E02CF82FA /* Check Pods Manifest.lock */,
 				759A50B71B9DE0600010D2E1 /* Sources */,
 				759A50B81B9DE0600010D2E1 /* Frameworks */,
 				759A50B91B9DE0600010D2E1 /* Resources */,
+				A81E33A20D76598DC248CA2B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +239,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A81E33A20D76598DC248CA2B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF9E8168D72E137E02CF82FA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		759A50B71B9DE0600010D2E1 /* Sources */ = {
@@ -345,6 +404,7 @@
 		};
 		759A50DF1B9DE0610010D2E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEADEA043BD352C443024A10 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LoginParseDemo/Info.plist;
@@ -355,6 +415,7 @@
 		};
 		759A50E01B9DE0610010D2E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6390A71AFDEEED15911CED86 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LoginParseDemo/Info.plist;
@@ -416,6 +477,7 @@
 				759A50E01B9DE0610010D2E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		759A50E11B9DE0610010D2E1 /* Build configuration list for PBXNativeTarget "LoginParseDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +486,7 @@
 				759A50E31B9DE0610010D2E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
