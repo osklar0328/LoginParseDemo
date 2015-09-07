@@ -13,6 +13,10 @@
 		759A50CF1B9DE0600010D2E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 759A50CD1B9DE0600010D2E1 /* LaunchScreen.xib */; };
 		759A50DB1B9DE0610010D2E1 /* LoginParseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 759A50DA1B9DE0610010D2E1 /* LoginParseDemoTests.m */; };
 		75A3EDB71B9DF7D900D8AE79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A3EDB61B9DF7D900D8AE79 /* Main.storyboard */; };
+		75A3EDC01B9DF8BF00D8AE79 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3EDB91B9DF8BF00D8AE79 /* HomeViewController.m */; };
+		75A3EDC11B9DF8BF00D8AE79 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3EDBB1B9DF8BF00D8AE79 /* LoginViewController.m */; };
+		75A3EDC21B9DF8BF00D8AE79 /* ResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3EDBD1B9DF8BF00D8AE79 /* ResetPasswordViewController.m */; };
+		75A3EDC31B9DF8BF00D8AE79 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3EDBF1B9DF8BF00D8AE79 /* SignUpViewController.m */; };
 		A47951225E77B2B13815C88B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ABA515BF7046C873B88714 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +43,14 @@
 		759A50D91B9DE0610010D2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		759A50DA1B9DE0610010D2E1 /* LoginParseDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginParseDemoTests.m; sourceTree = "<group>"; };
 		75A3EDB61B9DF7D900D8AE79 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		75A3EDB81B9DF8BF00D8AE79 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		75A3EDB91B9DF8BF00D8AE79 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		75A3EDBA1B9DF8BF00D8AE79 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		75A3EDBB1B9DF8BF00D8AE79 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		75A3EDBC1B9DF8BF00D8AE79 /* ResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetPasswordViewController.h; sourceTree = "<group>"; };
+		75A3EDBD1B9DF8BF00D8AE79 /* ResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordViewController.m; sourceTree = "<group>"; };
+		75A3EDBE1B9DF8BF00D8AE79 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		75A3EDBF1B9DF8BF00D8AE79 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		CEADEA043BD352C443024A10 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E0ABA515BF7046C873B88714 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,6 +116,14 @@
 			children = (
 				759A50C21B9DE0600010D2E1 /* AppDelegate.h */,
 				759A50C31B9DE0600010D2E1 /* AppDelegate.m */,
+				75A3EDB81B9DF8BF00D8AE79 /* HomeViewController.h */,
+				75A3EDB91B9DF8BF00D8AE79 /* HomeViewController.m */,
+				75A3EDBA1B9DF8BF00D8AE79 /* LoginViewController.h */,
+				75A3EDBB1B9DF8BF00D8AE79 /* LoginViewController.m */,
+				75A3EDBC1B9DF8BF00D8AE79 /* ResetPasswordViewController.h */,
+				75A3EDBD1B9DF8BF00D8AE79 /* ResetPasswordViewController.m */,
+				75A3EDBE1B9DF8BF00D8AE79 /* SignUpViewController.h */,
+				75A3EDBF1B9DF8BF00D8AE79 /* SignUpViewController.m */,
 				75A3EDB61B9DF7D900D8AE79 /* Main.storyboard */,
 				759A50CB1B9DE0600010D2E1 /* Images.xcassets */,
 				759A50CD1B9DE0600010D2E1 /* LaunchScreen.xib */,
@@ -273,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A3EDC11B9DF8BF00D8AE79 /* LoginViewController.m in Sources */,
+				75A3EDC21B9DF8BF00D8AE79 /* ResetPasswordViewController.m in Sources */,
+				75A3EDC31B9DF8BF00D8AE79 /* SignUpViewController.m in Sources */,
 				759A50C41B9DE0600010D2E1 /* AppDelegate.m in Sources */,
 				759A50C11B9DE0600010D2E1 /* main.m in Sources */,
+				75A3EDC01B9DF8BF00D8AE79 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
