@@ -7,7 +7,7 @@ If you haven't used CocoaPods before, you can read about it [here](https://cocoa
 
 * Set your Parse application id and client key in AppDelegate.m
 
-- If you get compiler errors, try the following:     
+- If you get compiler errors, try the following command in your Mac OS X Terminal:     
 			1. `cd /Your/Path/To/LoginParseDemo`     
 			2. `pod install`     
 			3. Build and run the project     
