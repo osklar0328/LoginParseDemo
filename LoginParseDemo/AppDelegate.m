@@ -24,7 +24,7 @@
     [Parse enableLocalDatastore];
     
     // Initialize Parse.
-#warning Don't forget to set allpication id and client key
+#warning Don't forget to set application id and client key
     [Parse setApplicationId:@"set your application id here"
                   clientKey:@"set your client key here"];
     
